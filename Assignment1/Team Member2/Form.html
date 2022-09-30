@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset ="UTF-8">
+	<title>REGISTRATION FORM</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<! --1.Create form of type input text,email,paswsord,radio button 
+text area ,drop down and navigate to 
+sucees page and display files of form in table (CSS,HTML)--!>
+
+<body>
+
+<form id = "Registration" action ="success.html" >
+	<table>
+	<p>Enter your details in the form</p>
+	<div class ="form-element">
+	<tr><label for="name"> Name:</label></tr>
+    <tr><input type="text" name="name" id="name" style="width: 200px;" placeholder="Your name"><br>
+	</tr></div>
+	
+	<div class ="form-element">
+	<tr><label for="email">Email:</label></tr>
+	<tr><input type="email" id="email" name="email" style="width: 200px;" placeholder="example@gmail.com"><br>
+	</div></tr>
+	
+	<div class ="form-element">
+	<tr><label for="password">Password:</label></tr>
+	<tr><input type="password" id="password" name="pwd" style="width: 200px;"><br></tr>
+	</div>
+	
+	<div class ="form-element">
+	<tr>Gender : <tr>
+	<tr><input type="radio" id="Male" name="gender" value="Male">
+	<label for="Male">Male</label>
+	<input type="radio" id="Female" name="gender" value="Female">
+	<label for="Female">Female</label>
+	<input type="radio" id="Transgender" name="gender" value="Transgender">
+	<label for="Transgender">Transgender</label>
+	</tr></div>
+	
+	<div class ="form-element">
+	<tr><label for="lang">Choose your preferred language</label></tr>
+	<tr><select id="lang" name="lang" >
+	<option value="Tamil">Tamil</option>
+	<option value="English">English</option>
+	<option value="Malayalam">Malayalam</option>
+	<option value="Hindi">Hindi</option>
+	</select></tr>
+	</div>
+	
+	<div class ="form-element">
+	<tr><p>Drop your feedback</p><tr>
+	<tr><textarea name="message" rows="10" cols="30" style="width: 200px;">
+	</textarea></tr>
+	</div><br>
+</table>
+<button type="submit" form="Registration" value="Submit">Submit</button>
+</form>
+
+</body>
+
+</html>
