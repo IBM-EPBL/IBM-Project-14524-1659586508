@@ -11,8 +11,8 @@ except:
 app = Flask(__name__)
 
 loggedIn = False
-# username='pramodhv'
-# password='pv103554'
+# username='ramya'
+# password='ramyank2724'
 
 # sql = "SELECT * from User where Username='{}' and password='{}'".format(username,password)
 # stmt = ibm_db.exec_immediate(conn,sql)
