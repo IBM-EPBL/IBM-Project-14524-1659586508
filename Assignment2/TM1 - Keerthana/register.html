@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Job Recommender</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="{{url_for('static', filename='/stylesheets/styles.css')}}">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css" rel="stylesheet"/>
+    </head>
+    <body class="login-page">
+        <main>
+    
+          <div class="login-block">
+            <h1>Sign Up</h1>
+    
+            <form method="post">
+    
+              <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-user ti-user"></i></span>
+                  <input type="text" class="form-control" name="username" placeholder="User Name">
+                </div>
+              </div>
+              
+              <hr class="hr-xs">
+    
+              <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-envelope ti-email"></i></span>
+                  <input type="text" class="form-control" name="email" placeholder="Email address">
+                </div>
+              </div>
+              
+              <hr class="hr-xs">
+
+              <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-envelope ti-email"></i></span>
+                  <input type="text" class="form-control" name="rollno" placeholder="Roll No">
+                </div>
+              </div>
+              
+              <hr class="hr-xs">
+
+              <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-lock ti-unlock"></i></span>
+                  <input type="password" class="form-control" name="password" placeholder="Password">
+                </div>
+              </div>
+
+              <hr class="hr-xs">
+
+              <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-lock ti-unlock"></i></span>
+                  <input type="password" class="form-control" name="confirmpassword" placeholder="Confirm Password">
+                </div>
+              </div>
+    
+              <button class="btn btn-primary btn-block" type="submit">Sign up</button>
+    
+            </form>
+          </div>
+    
+          <div class="login-links">
+            <p class="text-center">Already have an account? <a class="txt-brand" onclick="javascript:window.location.href='/login'">Login</a></p>
+          </div>
+    
+        </main>
+</html>
