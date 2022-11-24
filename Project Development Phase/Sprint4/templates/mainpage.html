@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Plasma Donor Application</title>
+  <link href="../static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="../static/landing.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+           <!-- <a class="logo">
+              PLASMA DONATION
+            </a> -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="" class="active">HOME</a></li>
+              <li class="scroll-to-section"><a href="signup.html">REGISTER NOW</a></li>
+              <li>
+                <div class="gradient-button"><a href="login.html"><i class="fa fa-sign-in-alt"></i> Sign In</a></div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-6 align-self-center">
+              <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h2>PLASMA DONATION</h2>
+                    <p>Be the reason for someone's heartbeat
+                    </p>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="white-button first-button scroll-to-section">
+                      <a href="login.html">DONATE PLASMA<i class="fa fa-sign-in-alt"></i></a>
+                    </div>
+                    <div class="white-button scroll-to-section">
+                      <a href="login.html">REQUEST PLASMA<i class="fa fa-sign-in-alt"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                <img src=ps3.JPG>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "c2330b42-052c-4d5e-a1ce-f276e94baf18", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "e2f53b52-9ca5-4ee2-87f2-3be507470876", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+  <script src="../static/vendor/jquery/jquery.min.js"></script>
+  <script src="../static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../static/js/owl-carousel.js"></script>
+  <script src="../static/js/animation.js"></script>
+  <script src="../static/js/imagesloaded.js"></script>
+  <script src="../static/js/popup.js"></script>
+  <script src="../static/js/custom.js"></script>
+</body>
+
+</html>

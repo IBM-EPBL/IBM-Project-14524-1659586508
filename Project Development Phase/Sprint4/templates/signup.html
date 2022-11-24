@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link href="../static/signup.css" rel="stylesheet">
+  <style>
+    /* Material Customization */
+  </style>
+</head>
+
+<body>
+  <div class="root">
+    <div class="left">
+      <form class="registration" method="post" action='login.html'>
+        <h1 style="color: #5a60a5;">Create an account</h1>
+
+        <label class="pure-material-textfield-outlined">
+          <input name="username" placeholder="Username" type="text" required>
+        </label>
+
+        <label class="pure-material-textfield-outlined">
+          <input name="email" placeholder="E-mail Address" type="email" required>
+
+        </label>
+
+        <label class="pure-material-textfield-outlined">
+          <input name="age" placeholder="Age" type="number" required>
+
+        </label>
+
+        <label class="pure-material-textfield-outlined">
+          <input name="password" placeholder="Password" type="password" required>
+        </label>
+        <label class="pure-material-textfield-outlined">
+          <input name="confpassword" placeholder="Confirm Password" type="password" required>
+        </label>
+        <label class="pure-material-textfield-outlined">
+          <input name="phone_no" placeholder="Mobile Number" type="text" required>
+        </label>
+
+        <select name="sex" id="sex">
+          <option value="nil">Sex</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+
+        </select>
+        <select name="blood_group" placeholder="Blood" name="blood_group">
+          <option value="Nil">Blood</option>
+          <option value="O+">O positive</option>
+          <option value="A+">A positive</option>
+          <option value="B+">B positive</option>
+          <option value="A-">A negative</option>
+          <option value="B-">B negative</option>
+          <option value="O-">O negative</option>
+          <option value="AB-"> AB negative</option>
+          <option value="AB+">AB negative</option>
+        </select>
+
+        <select name="covidrecord" placeholder="covid" name="covid">
+          <option value="Nil">Covid 19 Record</option>
+          <option value="negative">Recovered/ Tested Negative</option>
+          <option value="positive">Not Recovered/ Tested Positive</option>
+        </select>
+
+
+
+        <label class="pure-material-textfield-outlined">
+          <input name="address" placeholder="Current Residential Address" type="textarea" required>
+        </label>
+
+        <button class="pure-material-button-contained btn" type="submit">Sign up</button>
+        <a href="login.html">Already a User? Login</a>
+      </form>
+    </div>
+
+    <div class="right">
+      <div class="image">
+        <center>
+          <h3>Register Now</h3>
+        </center>
+
+
+        <img src="ps3.JPG">
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
